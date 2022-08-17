@@ -6,5 +6,5 @@
 
 <div class = "mainContent">
     <h2>体温を入力してください</h2>
-    
+    <input type="text" name="temp" value="temp">
 </div>
