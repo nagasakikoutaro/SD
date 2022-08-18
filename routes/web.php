@@ -16,4 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/temp','App\Http\Controllers\BodyTempeatureController@create');
+Route::get('/create','App\Http\Controllers\BodyTempeatureController@create');
+Route::post('/post','App\Http\Controllers\BodyTempeatureController@post');
+Route::get('/index','App\Http\Controllers\BodyTempeatureController@create');

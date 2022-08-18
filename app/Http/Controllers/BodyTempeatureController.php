@@ -13,4 +13,7 @@ class BodyTempeatureController extends Controller
     public function post(){
         return redirect('/home'); 
     }
+    public function index(){
+        return view('bodyTemperature.index');
+    }
 }
