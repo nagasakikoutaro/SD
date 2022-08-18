@@ -16,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/temp','App\Http\Controllers\QuizController@result');
+Route::get('/temp','App\Http\Controllers\BodyTempeatureController@create');
